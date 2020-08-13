@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
     <span class="navbar-brand mb-0 h1" href="#">Inventory</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +11,7 @@
           <a class="nav-link" href="#">Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+        <a class="nav-link" href="{{route('product_dashboard')}}">Product</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Account</a>
@@ -18,3 +19,5 @@
       </ul>
     </div>
 </nav>
+
+
